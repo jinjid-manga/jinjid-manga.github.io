@@ -24,7 +24,7 @@
         <!-- Navigation Overlay -->
         <div
             v-if="manga"
-            class="absolute inset-0 hidden lg:flex items-center justify-between p-4 pointer-events-none transition-opacity duration-200"
+            class="absolute inset-0 hidden pointer-fine:flex items-center justify-between p-4 pointer-events-none transition-opacity duration-200"
             :class="{ 'opacity-0': !showControls, 'opacity-100': showControls }"
         >
             <button
@@ -44,7 +44,7 @@
         <!-- Page Counter -->
         <div
             v-if="manga"
-            class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 text-white px-4 py-2 rounded-full pointer-events-none transition-opacity duration-200 hidden md:block"
+            class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black/50 text-white px-4 py-2 rounded-full pointer-events-none transition-opacity duration-200 hidden pointer-fine:block"
             :class="{ 'opacity-0': !showControls, 'opacity-100': showControls }"
         >
             {{ currentPage + 1 }} / {{ manga.pages.length }}
