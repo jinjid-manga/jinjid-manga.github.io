@@ -15,13 +15,13 @@
                 localStorage.setItem(
                     'static-404-redirect',
                     JSON.stringify({
-                        path: url.pathname.substring(basePath.length - 1),
+                        path: url.pathname,
                         hash: url.hash,
                         query: queryParameters,
                     })
                 );
 
-                location.href = basePath;
+                location.href = '/';
             })();
         </script>
     </head>
