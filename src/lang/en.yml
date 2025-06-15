@@ -1,0 +1,18 @@
+home:
+    title: JinJiD's One Shots
+    pages: "{count} pages"
+    readNow: "Read Now"
+    download: "Download"
+    requestTitle: "Something else?"
+    requestDescription: "If there is a One Shot you would like to read but hasn't been translated, please let me know. I may look into it."
+    contact: "Contact"
+    about: "About"
+reader:
+    notFound: "Manga not found."
+    home: "go home"
+about:
+    title: "About"
+    close: "Close"
+    descriptionLine1: "I've been studying Japanese for a few years now, and one of the main reasons to learn was to read manga. So I thought I could practice by translating one shots."
+    descriptionLine2: "I was also surprised to discover that there was a one shot by Boichi, one of my favorite authors, that hadn't been translated. So that's where I decided to start."
+    descriptionLine3: "Please, keep in mind that I'm not a professional translator (and not even a native English speaker!). If you've got some tips or comments, I'd love to hear them :)."

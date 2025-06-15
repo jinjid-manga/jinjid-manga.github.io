@@ -11,15 +11,21 @@
     "dependencies": {
         "@vueuse/core": "^13.3.0",
         "tailwindcss": "^4.1.8",
-        "vue": "^3.5.13"
+        "vue": "^3.5.13",
+        "vue-i18n": "^11.1.5",
+        "vue-router": "^4.5.1"
     },
     "devDependencies": {
+        "@iconify/json": "^2.2.348",
+        "@intlify/unplugin-vue-i18n": "^6.0.8",
         "@tailwindcss/vite": "^4.1.8",
         "@types/node": "^22.15.29",
         "@vitejs/plugin-vue": "^5.2.3",
         "@vue/tsconfig": "^0.7.0",
         "prettier": "3.5.3",
         "typescript": "~5.8.3",
+        "unplugin-icons": "^22.1.0",
+        "unplugin-vue-components": "^28.7.0",
         "vite": "^6.3.5",
         "vue-tsc": "^2.2.8"
     }

@@ -1,5 +1,5 @@
 declare module "virtual:manga" {
-    interface Manga {
+    export interface Manga {
         id: string;
         name: string;
         pages: string[];
