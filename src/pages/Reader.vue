@@ -24,7 +24,7 @@
         <!-- Navigation Overlay -->
         <div
             v-if="manga"
-            class="absolute inset-0 hidden md:flex items-center justify-between p-4 pointer-events-none transition-opacity duration-200"
+            class="absolute inset-0 hidden lg:flex items-center justify-between p-4 pointer-events-none transition-opacity duration-200"
             :class="{ 'opacity-0': !showControls, 'opacity-100': showControls }"
         >
             <button
