@@ -1,3 +1,3 @@
-# Manga Reader
+# JinJiD's One Shots
 
-WIP
+Find the manga at [https://jinjid-manga.github.io](jinjid-manga.github.io)!
