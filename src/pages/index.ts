@@ -17,9 +17,29 @@ const routes: RouteRecordRaw[] = [
     },
 ];
 
+let redirectHandled = false;
 const router = createRouter({
     history: createWebHistory(),
     routes,
 });
+
+router.beforeEach(() => {
+    if (redirectHandled) {
+        return;
+    }
+
+    redirectHandled = true;
+
+    const redirect = localStorage.getItem("static-404-redirect");
+
+    if (!redirect) {
+        return;
+    }
+
+    localStorage.removeItem("static-404-redirect");
+
+    router.replace(JSON.parse(redirect));
+});
+
 
 export default router;
